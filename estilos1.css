@@ -1,0 +1,60 @@
+html{
+    background-color: lightgoldenrodyellow;
+}
+
+.color_rojo{
+    color:darkcyan;
+    font-size:28px;
+}
+
+.color_azul{
+    color:steelblue;
+    font-size:24px
+}
+
+.color_verde{
+    color:green;
+    font-size:24px;
+}
+
+
+.columna_contenedorflex{
+  display: flex; /* Activo modo Flexbox */
+  aling-items:center;
+  gap: 20px; /* Creo unespacio entre las columnas */
+  flex: 1; /* Hace que cada columna ocupe el mismo espacio */
+  background-color: lightgoldenrodyellow; /* Color de fondo */
+  padding: 20px; /* Espacio interior */
+  border: 1px solid #ccc; /* Un borde ligero */
+  
+}
+
+
+#mi_borde  {
+  border-bottom: 2px solid #3498db; /* Borde de 2px, sólido y de color azul */
+  border-right: 3px solid #3488db;
+  padding: 12px Añadimos algo de espacio interior para que se vea mejor */
+  margin-left:2px solid beige;
+}
+
+.contenedor {
+  display: flex;          /* Activa el contenedor Flexbox */
+  flex-direction: row column;    /* Los elementos se alinean en una fila (comportamiento por defecto) */
+  gap: 15px;              /* Espacio de 15px entre cada elemento */
+  flex: 1;                /* Hace que todas las imágenes crezcan y se encojan por igual */
+  width: 0;               /* Base de anchura para que 'flex' funcione correctamente */
+  min-width: 0;           /* Evita que las imágenes se desborden en pantallas pequeñas */
+  object-fit: cover;      /* Asegura que la imagen cubra el espacio sin deformarse */
+  height: 200px;
+  
+  padding: 15px;
+  background-color: lightgoldenrodyellow;
+  border: 1px solid #ccc;
+}
+
+
+
+
+
+
+

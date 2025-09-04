@@ -1,0 +1,27 @@
+
+
+.columna_contenedorflex{
+  display: flex; /* Activo modo Flexbox */
+  align-items:center;
+  gap: 20px; /* Creo unespacio entre las columnas */
+  flex: 1; /* Hace que cada columna ocupe el mismo espacio */
+  background-color: lightgoldenrodyellow; /* Color de fondo */
+  padding: 20px; /* Espacio interior */
+  border: 1px solid #ccc; /* Un borde ligero */
+  
+}
+
+
+#mi_borde  {
+  border-bottom: 2px solid #3498db; /* Borde de 2px, sólido y de color azul */
+  border-right: 3px solid #3488db;
+  padding: 12px /*Añadimos algo de espacio interior para que se vea mejor */
+}
+
+
+
+
+
+
+
+
